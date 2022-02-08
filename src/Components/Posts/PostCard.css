@@ -1,0 +1,70 @@
+.post-item h2 a {
+    text-decoration: none;
+}
+
+.text-hover {
+    color: #ff2c54 !important;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+}
+
+.image-wrapper {
+    box-shadow: 0px 10px 25px 4px rgb(23 25 32 / 21%);
+    -webkit-box-shadow: 0px 10px 25px 4px rgb(23 25 32 / 21%);
+    -moz-box-shadow: 0px 10px 25px 4px rgb(23 25 32 / 21%);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 600px;
+}
+
+.categories-wrapper a {
+    text-decoration: none;
+    color: #7c808b;
+    font-size: 18px;
+    position: relative;
+}
+
+.categories-wrapper a::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    bottom: 10px;
+    right: -12px;
+    width: 5px;
+    height: 5px;
+    background-color: #3b3c3d;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.categories-wrapper a:last-child::after {
+    width: 0;
+    height: 0;
+}
+
+.categories-wrapper a:hover {
+    color: #000;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.author-wrapper {
+    color: #7a7a7a;
+}
